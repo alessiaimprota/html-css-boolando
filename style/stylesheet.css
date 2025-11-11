@@ -6,6 +6,9 @@
 }
 
 /*UTILITY*/
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
 
 li{
     list-style: none;
@@ -14,6 +17,35 @@ li{
 a{
     text-decoration: none;
     color: white;
+}
+
+.label-container{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;    
+    width: 40%;
+}
+
+.heart-label{
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 20;
+    right: 0;
+    top: 20px;
+}
+
+.label{
+    padding: .3rem;
+    margin-right: 5px;
+}
+
+.label-discount{
+    background-color: red;
+}
+
+.label-sustable{
+    background-color: green;
 }
 
 /*HEADER*/
@@ -56,7 +88,6 @@ a{
     text-align: end;
 }
 
-
 /*main*/
 
 .wrapper {
@@ -74,24 +105,38 @@ a{
     position: relative;
 }
 
-.hover-img{
+.alternative-img{
     position: absolute;
     top: 0;
     left: 0;
     display: none;
 }
 
-.card:hover .hover-img{
+.card:hover .alternative-img{
     display: block;
+}
+
+.card:hover .heart-label{
+    color: red;
 }
 
 img{
     width: 100%;
 }
 
-/*Debug
-.card{
-    height: 300px;
-    background-color: salmon;
+ .card h6{
+    font-size: 20px;
 }
-*/
+
+.price{
+    color: red;
+    font-weight: 800;
+}
+
+.old-price{
+    color: black;
+    text-decoration:line-through;
+}
+
+/*Debug
+
