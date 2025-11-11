@@ -1,0 +1,50 @@
+/*CSS RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*UTILITY*/
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*HEADER*/
+
+.navbar {
+    height:60px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    padding: 0 20px;
+}
+
+.logo-header img{
+    height: 50px;
+}
+
+.shop-icons i {
+    height: 50%;
+    color: white;
+    padding: 15px;
+    text-align: end;
+}
