@@ -33,6 +33,7 @@ a{
     padding: 20;
     right: 0;
     top: 20px;
+    padding: 8px;
 }
 
 .label{
@@ -103,6 +104,7 @@ a{
 .card{
     width: calc(100% / 3 - (40px / 3));
     position: relative;
+    margin-bottom: 100px;
 }
 
 .alternative-img{
@@ -116,7 +118,7 @@ a{
     display: block;
 }
 
-.card:hover .heart-label{
+.heart-label:hover {
     color: red;
 }
 
